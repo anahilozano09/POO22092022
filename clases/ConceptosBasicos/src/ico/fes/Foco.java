@@ -45,6 +45,17 @@ public class Foco {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Foco{");
+        sb.append("color=").append(color);
+        sb.append(", tipo=").append(tipo);
+        sb.append(", tamano=").append(tamano);
+        sb.append('}');
+        return sb.toString();
+    }
     
     
 }
