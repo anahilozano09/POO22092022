@@ -15,6 +15,12 @@ public class TareaLibro {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Bienvenido");
+        
+        Libro lib1 = new Libro();
+        lib1.setTitulo("Pedro Paramo");
+        System.out.println("Titulo: " + lib1.getTitulo());
+        
     }
     
 }
