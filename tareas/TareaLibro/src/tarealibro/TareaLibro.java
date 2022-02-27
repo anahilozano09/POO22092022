@@ -28,6 +28,7 @@ public class TareaLibro {
         System.out.println("Pasta: " + lib1.getPasta());
         lib1.setPapel("Ahuesado");
         System.out.println("Papel: " + lib1.getPapel());
+        lib1.abierto();
         
         Libro lib2 = new Libro();
         lib2.setTitulo("Alicia en el país de las maravillas");
@@ -40,6 +41,7 @@ public class TareaLibro {
         System.out.println("Pasta: " + lib2.getPasta());
         lib2.setPapel("Reciclado");
         System.out.println("Papel: " + lib2.getPapel());
+        lib2.cerrado();
         
         Libro lib3 = new Libro();
         lib3.setTitulo("Fundamentos de física");
@@ -52,6 +54,7 @@ public class TareaLibro {
         System.out.println("Pasta: " + lib3.getPasta());
         lib3.setPapel("Satinado");
         System.out.println("Papel: " + lib3.getPapel());
+        lib3.cerrado();
     }
     
 }
