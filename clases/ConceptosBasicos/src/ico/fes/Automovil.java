@@ -11,7 +11,7 @@ import java.awt.Color;
  * @author anahi
  */
 public class Automovil {
-    private String marca;      //Los atributos se escriben con notacion lower case
+    private String marca;      //Los atributos se escriben con notacion lower camel case
     private String subMarca;   //lower camel case, la primera palabra va escrita en minusculas
                        //la segunda palabra se escribe con la primera letra en mayuscula
     private int modelo;
