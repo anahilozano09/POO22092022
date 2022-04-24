@@ -16,7 +16,7 @@ public class PruebaEjemplo {
     public static void main(String[] args) {
         // TODO code application logic here
         Cuentahabiente [] lista = new Cuentahabiente[5];
-        lista[0] = new Cuentahabiente("38298306", "Fernando", 150000f);
+        lista[0] = new Cuentahabiente("38298306", "Fernando", 90000f);
         lista [1] = new Cuentahabiente("34928125", "María", 450000f);
         lista[2] = new Cuentahabiente("23927432", "Sandra", 345000f);
         lista[3] = new Cuentahabiente("48957301", "Fernando", 296790f);
